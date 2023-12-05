@@ -2,6 +2,13 @@
 
 Bu proje, bir veteriner kliniği yönetim sisteminin RESTful API'sini sunmaktadır.
 
+
+
+![Ekran Görüntüsü (50)](https://github.com/cgezginci/vetManagementSystem/assets/143842154/ef074ba7-4a13-4e3b-988b-5dcd78e7b5ec)
+
+
+
+
 ## Customer (Müşteri) Tablosu
 
 - `POST /v1/customer`: Yeni bir müşteri ekler.
@@ -15,7 +22,7 @@ Bu proje, bir veteriner kliniği yönetim sisteminin RESTful API'sini sunmaktad�
 - `POST /v1/animal`: Yeni bir hayvan ekler.
 - `GET /v1/animal/{name}`: Belirtilen isme sahip hayvanı getirir.
 - `DELETE /v1/animal/{id}`: Belirtilen ID'ye sahip hayvanı siler.
-- `PUT /v1/animal`: Tüm hayvanları günceller.
+- `PUT /v1/animal`: Belirtilen hayvanları günceller.
 
 ## Vaccine (Aşı) Tablosu
 
