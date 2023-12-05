@@ -56,3 +56,9 @@ Bu proje, bir veteriner kliniği yönetim sisteminin RESTful API'sini sunmaktad�
 - `GET /v1/appointment/filter`: Belirtilen hayvan adı ve tarih aralığına göre randevuları getirir.
 - `GET /v1/appointment/filtered`: Belirtilen doktor adı ve tarih aralığına göre randevuları getirir.
 - `PUT /v1/appointment`: Belirtilen randevuyu günceller.
+
+## Genel Özellikler
+* Aynı isme sahip bir aşı eklemek için aşının koruma gününün geçmiş olması gerekmektedir.
+* Doktora randevu ekleyebilmek için o gün müsait olmalı ve o saatte başka bir randevusu olmamalıdır.
+
+
